@@ -1,0 +1,54 @@
+@media(max-width: 586px) {    
+    .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .container .imagem-produto {        
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+
+    }
+
+    .container .imagem-produto img {
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+    }
+
+    .container .info {
+        height: 300px;
+    }
+
+    .container .info .perfume {
+        font-size: 12px;
+        padding: 10px 30px 0 10px;
+    }
+
+    .container .info .nome-produto {
+        padding: 5px 10px;
+    }
+
+    .container .info .descricao-produto {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .container .info .valor {
+        margin-bottom: 10px;
+    }
+
+    .container .info .valor .valor-atual {
+        padding: 20px 10px;
+    }
+
+    .container .info .valor .valor-antigo {
+        padding-top: 28px;
+    }
+
+    .container .info .btn {
+        margin: 13px;
+        padding: 15px 80px;
+    }
+}

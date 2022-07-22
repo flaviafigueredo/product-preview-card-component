@@ -1,0 +1,121 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 600px;
+    border-radius: 8px;
+}
+
+.container p {
+    padding-left: 30px;
+    color: hsl(228, 12%, 48%);
+}
+
+.container .imagem-produto {
+    width: 50%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.container .info .perfume {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding: 30px 30px 0 30px;
+}
+
+.container .info .nome-produto {
+    font-family: 'Fraunces', serif;
+    padding: 20px 30px;
+}
+
+.container .info .descricao-produto {
+    padding-right: 30px;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 600px;
+    border-radius: 8px;    
+}
+
+.container p {
+    padding-left: 30px;
+    color: hsl(228, 12%, 48%);
+}
+
+.container .imagem-produto img {
+    width: 300px;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.container .info .perfume {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding: 30px 30px 0 30px;
+}
+
+.container .info .nome-produto {
+    font-family: 'Fraunces', serif;
+    padding: 20px 30px;
+}
+
+.container .info .descricao-produto {
+    padding-right: 30px;
+}
+
+.container .info .valor {
+    display: flex;
+}
+
+.container .info .valor .valor-atual {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.container .info .valor .valor-antigo {
+    text-decoration: line-through;
+    padding-top: 18px;
+}
+
+.container .info .btn {
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 8px;
+    padding: 15px 60px;
+    margin: 30px;
+}
+
+.container .info .btn:hover {
+    background-color: hsl(212, 21%, 14%);
+}
